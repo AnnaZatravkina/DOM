@@ -24,7 +24,7 @@ quantitySelector.addEventListener("change", (e) => {
 });
 
 const colorTheBlock = (block, color) => {
-    block.style.backgroudColor = color;
+    block.style.backgroundColor = color;
 };
 
 let changed = false;
@@ -48,4 +48,5 @@ colorSelector.addEventListener("change", (e) => {
 
         colorTheBlock(currentBlock, ColorToApply);
     }
+
 });
